@@ -35,3 +35,47 @@ GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user confi
 Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
 State dump: {"id":"99d9bea1-a5e1-4ed9-bfc5-5277f56de07c","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
 
+3/22/2024 3:30:58 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. (Line: 122, Col: 4, Idx: 3614) - (Line: 122, Col: 4, Idx: 3614): While parsing a block collection, did not find expected '-' indicator.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.DeserializeUserConfig(String userConfigPath) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 109
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 49
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 41
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.App.WindowManager.WmStartup.Run()
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"id":"cdc9f77a-f24a-4f70-952f-6b5c2582b31c","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
+
+3/22/2024 3:31:45 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. At least 1 matching regex (eg. 'match_process_name') is required in window rule config.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.ValidateDeserializedConfig(UserConfig deserializedConfig) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 209
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 58
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 41
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.App.WindowManager.WmStartup.Run()
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"id":"65184f60-5dc7-4e4f-9679-2373cd950db4","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
+
+3/22/2024 3:39:38 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. At least 1 matching regex (eg. 'match_process_name') is required in window rule config.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.ValidateDeserializedConfig(UserConfig deserializedConfig) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 209
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 58
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 41
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.App.WindowManager.WmStartup.Run()
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"id":"336509f4-5fb6-4433-b96f-4d9e4462dfc4","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
+
+3/22/2024 3:40:29 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. At least 1 matching regex (eg. 'match_process_name') is required in window rule config.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.ValidateDeserializedConfig(UserConfig deserializedConfig) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 209
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 58
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 41
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.App.WindowManager.WmStartup.Run()
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"id":"7d76365f-9c50-45c9-a2f0-68afc92f869e","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
+
